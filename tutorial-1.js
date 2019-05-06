@@ -12,8 +12,8 @@ console.log('Getting started with Node Slack SDK');
 //https://api.slack.com/methods/channels.history/test
 //https://api.slack.com/methods/reactions.add/test
 
-const web = new WebClient('xoxp-318392221105-318942821602-626453242320-bacc497c229b8041d987510a6b7c0048');
-//xoxp-318392221105-318942821602-626453242320-bacc497c229b8041d987510a6b7c0048
+//xoxp ......
+const web = new WebClient('your_token_here');
 
 // The current date
 const currentTime = new Date().toTimeString();
